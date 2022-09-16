@@ -5,3 +5,6 @@ The C programs are used to demonstrate summary of CPU performance statistics lik
 
 Perf is the official Linux profiler.
 perf-stat runs a command and gather performance counter statistics.
+
+Usage: gcc -o matmul matmul.c
+       perf ./matmul
