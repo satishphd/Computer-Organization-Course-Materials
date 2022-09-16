@@ -9,3 +9,9 @@ perf-stat runs a command and gather performance counter statistics.
 Usage: gcc -o matmul matmul.c
 
        perf ./matmul
+
+ prints clock cycles, #instructions, IPC (Instructions per clock cycle)
+   IPC is reciprocal of CPI (clock cycles per second)
+   
+![image](https://user-images.githubusercontent.com/7748220/190540861-712725de-f690-464e-943a-27b043bd5c47.png)
+
