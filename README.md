@@ -2,12 +2,12 @@
 Programs used in teaching Computer Organization Course
 
 In class, we learnt about performance model of a computer program that is determined by software and hardware parameters.
-The software program has number of instructions when compiled to assembly level. Each instruction takes certain number of clock cycles to run. This leads to CPI = Clock_Cycles_Per_Instruction. The hardware (CPU) parameter is clock period or clock frequency. clock period is the time to complete one cycle. clock frequency = 1/clock_period.  
+The software program has number of instructions when compiled to assembly level. Each instruction takes certain number of clock cycles to run.  This leads to CPI = Clock_Cycles_Per_Instruction. The hardware (CPU) parameter is clock period or clock frequency. clock period is the time to complete one cycle. clock frequency = 1/clock_period.  
 
-Execution time of a program =   # of instructions executed * CPI * clock_period.
-                                # of instructions executed * CPI 
-                            = -------------------------------------
-                                       clock frequency
+Execution time of a program =   # of instructions executed * CPI * clock_period
+
+                            =   # of instructions executed * CPI * 1/clock_frequency
+                                       
                                
 The C programs are used to show summary of CPU performance statistics like program run-time, number of cycles, number of instructions executed, IPC is Instructions-Per-Cycle which is equal to 1/Clock_Cycles_Per_Instruction (CPI).
 
